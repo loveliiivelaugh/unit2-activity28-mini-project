@@ -10,7 +10,7 @@ header {
 }
 
 header h1 {
-  color: pink;
+  color: #E867ED;
 }
 
 header p {
@@ -44,13 +44,14 @@ header p {
 }
 
 .card-body {
-  color:  rgba(232, 0, 255, 1);
+  color:  #E867ED;
 }
 
 .card-code {
-  background-image: linear-gradient(from bottom to top, rgba(232, 0, 255, 1) 100%, #333 0%);
-  background-color:rgba(232, 0, 255, 1);
+  /* background-image: linear-gradient(from bottom to top, rgba(232, 0, 255, 1) 100%, #333 0%); */
+  background-color:#E867ED;
   border-radius: 5%;
+  border: 0 0 0 -50px;
 }
 
 pre { 
@@ -58,9 +59,10 @@ pre {
   color: #fff;
   position:relative;
   padding: 2%;
+  white-space:pre-line;
 }
 
 footer {
   text-align: center;
-  color:  rgba(232, 0, 255, 1);
+  color:  #E867ED;
 }
