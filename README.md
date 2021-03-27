@@ -28,7 +28,7 @@ cd ../..
 
 5. Finished product.
 
-![Screenshot](/images/screenshot.png)
+![Screenshot](/Images/screenshot.png)
 
 ## Credits
 
