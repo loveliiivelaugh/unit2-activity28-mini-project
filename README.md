@@ -5,7 +5,7 @@ A small web application to preview your favorite CSS code snippets. Built with v
 
 ## Finished product.
 
-![Screenshot](/Images/css-snippet-gif.gif.png)
+![Screenshot](/Images/css-snippet-gif.gif)
 # Usage
 
 * 👨🏻‍💻 In the terminal. 
