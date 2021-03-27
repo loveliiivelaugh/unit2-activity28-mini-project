@@ -61,7 +61,7 @@ header p {
 .card-title {
   border: 1px solid var(--secondary);
   border-radius: 5px;
-  background-color: #333;
+  background-color: var(--background);
   z-index: 2;
   color: var(--primary);
   padding: 2%;
@@ -118,8 +118,7 @@ footer {
 
 /* Media Queries */
 @media screen and (min-width: 992px) {
-  /*.flex-container {
-  }*/
+  
 }
 
 @media screen and (max-width: 992px) {
