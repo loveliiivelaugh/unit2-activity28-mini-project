@@ -1,5 +1,12 @@
 # Unit 02 Mini-Project: CSS Snippet
 
+![GitHub issues](https://img.shields.io/github/issues/loveliiivelaugh/unit2-activity28-mini-project)
+![GitHub forks](https://img.shields.io/github/forks/loveliiivelaugh/unit2-activity28-mini-project)
+![GitHub stars](https://img.shields.io/github/stars/loveliiivelaugh/unit2-activity28-mini-project)
+![GitHub license](https://img.shields.io/github/license/loveliiivelaugh/unit2-activity28-mini-project)
+![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Floveliiivelaugh%2Funit2-activity28-mini-project)
+
+
 ## Description
 A small web application to preview your favorite CSS code snippets. Built with vanilla HTML and CSS.
 
