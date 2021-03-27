@@ -1,0 +1,66 @@
+body { 
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 5% 0 2% 0;
+  padding: 0 10%;
+}
+
+header h1 {
+  color: pink;
+}
+
+header p {
+  color: #fff;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  margin: 1%;
+  justify-content: center;
+}
+
+.card {
+  border: 1px dashed #fff;
+  width: 28%;
+  margin: 1.5% 0;
+  padding: 1%;
+  min-width: 300px;
+}
+
+.card-title {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #333;
+  z-index: 2;
+  color:  rgba(232, 102, 236, 1);
+  padding: 2%;
+  margin: -9% 0 0 0;
+}
+
+.card-body {
+  color:  rgba(232, 0, 255, 1);
+}
+
+.card-code {
+  background-image: linear-gradient(from bottom to top, rgba(232, 0, 255, 1) 100%, #333 0%);
+  background-color:rgba(232, 0, 255, 1);
+  border-radius: 5%;
+}
+
+pre { 
+  font-family: Consolas, "Andale Mono WT", Courier, monospace;
+  color: #fff;
+  position:relative;
+  padding: 2%;
+}
+
+footer {
+  text-align: center;
+  color:  rgba(232, 0, 255, 1);
+}
