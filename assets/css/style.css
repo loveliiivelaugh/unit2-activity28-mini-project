@@ -5,12 +5,12 @@ body {
 
 header {
   text-align: center;
-  margin: 5% 0 2% 0;
+  margin: 5% 0 40px 0;
   padding: 0 10%;
 }
 
 header h1 {
-  color: #E867ED;
+  color: #E7D;
 }
 
 header p {
@@ -28,9 +28,9 @@ header p {
 .card {
   border: 1px dashed #fff;
   width: 28%;
-  margin: 1.5% 0;
+  margin: 15px 0;
   padding: 1%;
-  min-width: 300px;
+  min-width: 250px;
 }
 
 .card-title {
@@ -38,23 +38,38 @@ header p {
   border-radius: 5px;
   background-color: #333;
   z-index: 2;
-  color:  rgba(232, 102, 236, 1);
+  color: #e7d;
   padding: 2%;
-  margin: -9% 0 0 0;
+  margin: -11% 0 0 0;
 }
 
 .card-body {
-  color:  #E867ED;
+  color:  #E7d;
 }
 
 .card-code {
-  border-radius: 5%;
+  border-radius: 10px;
   border: 0 0 0 -50px;
+  height: auto; /* need to fix this so the code body fills to the bottom of the card */
+}
 
+.card-code .card-title {
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:active {
+  animation: glow 1.2s ease infinite;
+  box-shadow: 5px 10px 40px 10px #E7d;
+}
+
+.card:hover {
+  animation: glow 1.2s ease infinite;
+  box-shadow: 5px 10px 40px 10px #E7d;
 }
 
 pre { 
-  background: linear-gradient(0deg, #e7e, #333);
+  background: linear-gradient(0deg, #e7e, #e6c5);
   font-family: Consolas, "Andale Mono WT", Courier, monospace;
   color: #fff;
   position:relative;
@@ -67,25 +82,28 @@ footer {
   color:  #E867ED;
 }
 
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
 @media screen and (min-width: 992px) {
   /*.flex-container {
   }*/
 }
 
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
 @media screen and (max-width: 992px) {
-  .flex-container {
-    flex-direction: column;
+  .card {
+    width: 45%;
+    margin: 20px 0;
+  }
+  .card-title {
+    margin: -8% 0 0 0;
   }
 }
 
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
 @media screen and (max-width: 768px) {
-  .flex-container {
-    flex-direction: column;
+  .card {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .card-title {
+    margin: -6% 0 0 0;
   }
 }
