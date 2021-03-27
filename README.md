@@ -3,9 +3,13 @@
 ## Description
 A small web application to preview your favorite CSS code snippets. Built with vanilla HTML and CSS.
 
-## Finished product.
+## Finished Solution
 
-![Screenshot](/Images/css-snippet-gif.gif)
+![Screenshot](/Images/screenshot.png)
+
+## Live Demo
+
+![Gif](/Images/css-snippet-gif.gif)
 # Usage
 
 * 👨🏻‍💻 In the terminal. 
@@ -14,6 +18,9 @@ A small web application to preview your favorite CSS code snippets. Built with v
 * 💬 Open `./index.html` in a web browser.
 * 🏋🏻‍♂️ Tada!
 
+## Deployment
+
+Deployed with [GitHub Pages](https://loveliiivelaugh.github.io/unit2-activity28-mini-project/)
 ## Credits
 
 * [W3Schools - CSS variables](https://www.w3schools.com/css/css3_variables.asp)
