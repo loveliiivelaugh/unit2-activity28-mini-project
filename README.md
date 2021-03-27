@@ -3,32 +3,16 @@
 ## Description
 A small web application to preview your favorite CSS code snippets. Built with vanilla HTML and CSS.
 
-## Instructions
+## Finished product.
 
-1. Open a terminal and navigate to the folder you want to create your new project in.
+![Screenshot](/Images/css-snippet-gif.gif.png)
+# Usage
 
-2. Then, 
-```
-mkdir <your-project-name> && 
-cd <your-project-name> && 
-touch index.html && 
-mkdir assets && 
-cd assets && 
-mkdir css images && 
-cd css && 
-touch style.css && 
-cd ../..
-```
+* 👨🏻‍💻 In the terminal. 
+`git clone https://github.com/loveliivelaugh/unit2-activity28-mini-project.git`
 
-*Use this string of commands in the terminal in order to create a basic file structure for your project.*
-
-3. Examine the mock-up ![Original Mock-up](/Images/01-app-desktop.png)
-
-4. Start coding away.
-
-5. Finished product.
-
-![Screenshot](/Images/screenshot.png)
+* 💬 Open `./index.html` in a web browser.
+* 🏋🏻‍♂️ Tada!
 
 ## Credits
 
