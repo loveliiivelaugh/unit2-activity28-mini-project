@@ -48,21 +48,44 @@ header p {
 }
 
 .card-code {
-  /* background-image: linear-gradient(from bottom to top, rgba(232, 0, 255, 1) 100%, #333 0%); */
-  background-color:#E867ED;
   border-radius: 5%;
   border: 0 0 0 -50px;
+
 }
 
 pre { 
+  background: linear-gradient(0deg, #e7e, #333);
   font-family: Consolas, "Andale Mono WT", Courier, monospace;
   color: #fff;
   position:relative;
-  padding: 2%;
+  padding: 5%;
   white-space:pre-line;
 }
 
 footer {
   text-align: center;
   color:  #E867ED;
+}
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media screen and (min-width: 992px) {
+  /*.flex-container {
+  }*/
+}
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media screen and (max-width: 992px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
