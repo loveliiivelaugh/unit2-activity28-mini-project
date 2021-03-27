@@ -11,6 +11,6 @@ A small web application to preview your favorite CSS code snippets. Built with v
 
 *Use this string of commands in the terminal in order to create a basic file structure for your project.*
 
-3. Examine the mock-up ![Original Mock-up](/images/01-app-desktop.png)
+3. Examine the mock-up ![Original Mock-up](/Images/01-app-desktop.png)
 
 4. Start coding away.
