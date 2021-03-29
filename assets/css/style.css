@@ -78,6 +78,10 @@ header p {
   height: auto; /* need to fix this so the code body fills to the bottom of the card */
 }
 
+.card-code div {
+  margin: -5% 0 -5% 5%;
+}
+
 .card-code .card-title {
   border-radius: 8px;
 }
